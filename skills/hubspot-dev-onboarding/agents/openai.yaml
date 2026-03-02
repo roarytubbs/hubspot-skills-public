@@ -1,0 +1,4 @@
+interface:
+  display_name: "HubSpot Dev Onboarding"
+  short_description: "Interview and set developer agent preferences"
+  default_prompt: "Run onboarding interview, then create or update preference.md"

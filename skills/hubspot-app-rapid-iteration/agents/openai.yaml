@@ -1,0 +1,4 @@
+interface:
+  display_name: "HubSpot Rapid Builder"
+  short_description: "Build HubSpot apps fast with MCP loops"
+  default_prompt: "Use $hubspot-app-rapid-iteration to scaffold and iterate on one HubSpot app feature with validation, upload checks, and release gates."
