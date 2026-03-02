@@ -1,6 +1,6 @@
 # HubSpot Skills (Public)
 
-Reusable Codex/agent skills for HubSpot app development workflows.
+Reusable agent skills for HubSpot app development workflows.
 
 ## Included Skills
 
@@ -19,7 +19,7 @@ Each skill folder includes a `SKILL.md` plus any supporting `references/`, `scri
 
 ## Usage
 
-1. Copy one or both skill folders into your local Codex skills directory.
+1. Copy one or both skill folders into your agent runtime's skills directory.
 2. Reference them by name in prompts (for example, `$hubspot-app-rapid-iteration`).
 3. Follow each skill's `SKILL.md` workflow and constraints.
 
