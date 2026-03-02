@@ -2,10 +2,15 @@
 
 Reusable agent skills for HubSpot app development workflows.
 
-## Included Skills
+## Skills Catalog
 
-- `hubspot-app-rapid-iteration`: docs-first, one-slice-at-a-time workflow for building and shipping HubSpot app features.
-- `hubspot-dev-onboarding`: interview-driven onboarding flow that generates a `preference.md` for collaboration style and guardrails.
+### `hubspot-app-rapid-iteration`
+
+Overview: A docs-first, small-slice delivery workflow for building HubSpot apps quickly and safely. It emphasizes one-feature-at-a-time implementation, validation before upload, build/log debugging loops, environment/profile discipline, and explicit gating before production-impacting actions.
+
+### `hubspot-dev-onboarding`
+
+Overview: An interview-style onboarding workflow that captures developer collaboration preferences and writes them to `preference.md`. It standardizes autonomy/control settings, per-action safety gates (especially upload/deploy), preferred stack/workflows, and expectations other agents should follow in the workspace.
 
 ## Repository Layout
 
