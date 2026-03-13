@@ -12,10 +12,15 @@ Overview: A docs-first, small-slice delivery workflow for building HubSpot apps 
 
 Overview: An interview-style onboarding workflow that captures developer collaboration preferences and writes them to `preference.md`. It standardizes autonomy/control settings, per-action safety gates (especially upload/deploy), preferred stack/workflows, and expectations other agents should follow in the workspace.
 
+### `hubspot-app-quality`
+
+Overview: Evaluate HubSpot apps against the official three-tier quality framework — minimum listing requirements, listing quality criteria, and certification standards. Use this skill to audit an app at any stage (pre-submission, post-listing, or pre-certification), identify blocking issues vs. improvements, and produce an actionable remediation report covering security, reliability, usability, documentation, and marketplace readiness.
+
 ## Repository Layout
 
 ```text
 skills/
+  hubspot-app-quality/
   hubspot-app-rapid-iteration/
   hubspot-dev-onboarding/
 ```
@@ -33,7 +38,7 @@ Before using these skills, install HubSpot developer tooling (CLI + local MCP se
 
 ## Add Skills
 
-1. Copy one or both skill folders into your agent runtime's skills directory.
+1. Copy skill folders into your agent runtime's skills directory.
 2. Reference them by name in prompts (for example, `$hubspot-app-rapid-iteration`).
 3. Follow each skill's `SKILL.md` workflow and constraints.
 
